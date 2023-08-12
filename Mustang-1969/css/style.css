@@ -1,0 +1,1126 @@
+/* CSS Document */
+/* Retro Product Micro-site | Mustang 1969 */
+/* CSS Code by Deep Biswas and Arshpreet Singh Guray, Georgian College, ON, Canada. */
+
+/* Adding Custom Fonts */
+@font-face{
+    font-family: 'GreatEscapeBook';
+    src: url(../fonts/GreatEscapeW00Book.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'DaytonaPro';
+    src: url(../fonts/DaytonaPro.ttf) format("truetype");
+}
+/* General Styling */
+html{
+    scroll-behavior: smooth;
+}
+.index-body{
+    margin: 0;
+    padding: 0;
+}
+.about-body{
+    margin: 0;
+    padding: 0;
+}
+.contact-body{
+    margin: 0;
+    padding: 0;
+}
+.product-body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Global Header Navigation Styling */
+.navigation-container{
+    width: 100%;
+    height: 60px;
+    background-color: #3a3a3a;
+}
+.navigation-content{
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 7.75%;
+}
+.navigation-menu ul{
+    display: flex;
+}
+.logo img{
+    height: auto;
+    width: 110px;
+}
+/* Global Header Navigation Text Styling */
+.navigation-menu ul li a{
+    display: flex;
+    flex-direction: row;
+    padding:0 30px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    border-left: 3px solid #6c6464;
+}
+/* Global Footer Navigation */
+.footer-navigation-container{
+    width: 100%;
+    height: 60px;
+    background-color: #3a3a3a;
+}
+.footer-navigation-content{
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 7.75%;
+}
+.footer-navigation-menu ul{
+    display: flex;
+}
+.footer-logo img{
+    height: auto;
+    width: 110px;
+}
+/* Global Footer Navigation Text Styling */
+.footer-navigation-menu ul li a{
+    display: flex;
+    flex-direction: row;
+    padding:0 30px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+    border-left: 3px solid #6c6464;
+}
+.footer-navigation-container{
+    background-color: #3a3a3a;
+    height: 150px;
+}
+.social ul{
+    display: flex;
+}
+.social img{
+    height: 15px;
+}
+.social ul li a{
+    padding: 15px;
+}
+.footer-navigation-menu ul li a{
+    border-left: 3px solid #2e2e2e;
+    color: rgba(255,255,255,0.8);
+    font-family: 'Rajdhani', sans-serif;
+}
+.footer-navigation{
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 12%;
+}
+.copyright{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 12px;
+}
+.copyright p{
+    color: #b9b9b9;
+    text-align: center;
+}
+/* Navigation Done */
+/* CSS Document */
+/* Retro Product Micro-site | Mustang 1969 */
+/* CSS Code by Deep Biswas and Arshpreet Singh Guray, Georgian College, ON, Canada. */
+
+/* Index Page Styling */
+/* Welcome GIF Styling */
+.flash{
+    position: relative;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.flash img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    object-fit: cover;
+}
+.flash-text{
+    line-height: 150%;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+.flash-text h3{
+    font-size: 250%;
+    color: #ffffff;
+    font-family: 'GreatEscapeBook', sans-serif;
+}
+.flash-text p{
+    font-size: 150%;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+.flash-text p:nth-child(1){
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.flash-text p:nth-child(2){
+    font-weight: 300;
+    margin-top: 5px;
+}
+/* Video Styling */
+.vidimage{
+    position: relative;
+    margin-bottom: -0.5%;
+}
+.vidtext{
+    padding-left: 10%;
+    position: absolute;
+}
+.vidtext p{
+    font-family: 'Outfit', sans-serif;
+    color: #ffffff;
+    font-size: 150%;
+}
+.johnwick{
+    width: 100%;
+}
+/* Mach-Title Styling */
+.mach-title{
+    padding-top: 10px;
+    background-color: #000000;
+    height: 200px;
+}
+.mach-title p{
+    padding-top: 0.5%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+    background: linear-gradient(90deg,#ffffff, #4f4f4f, #2e2e2e, #4f4f4f, #ffffff);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 20s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+/* Mach Container Styling */
+.mach-container{
+    height: 600px;
+    width: auto;
+    background-color: #3a3a3a;
+    display: flex;
+    margin-bottom: 2px;
+}
+.hover{
+    display: flex;
+    text-align: center;
+    width: 40%;
+    height: 50%;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 2%;
+    transition: all 0.3s ease-in-out;
+}
+.hover:hover{
+    transform: scale(1.03);
+}
+.hover p{
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin-top: 10%;
+    left: 50%;
+    letter-spacing: 15px;
+    font-weight: 600;
+    font-size: 200%;
+}
+.hover img{
+    align-items: end;
+    height: auto;
+    width: 90%;
+    transform: translateY(-15%);
+}
+.details{
+    height: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 2%;
+    transition: all 0.3s ease-in-out;
+}
+.details:hover{
+    transform: scale(1.03);
+}
+.details h4, .details p{
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+}
+.details h4{
+    font-weight: 800;
+}
+/* Index page Done */
+/* CSS Document */
+/* Retro Product Micro-site | Mustang 1969 */
+/* CSS Code by Deep Biswas and Arshpreet Singh Guray, Georgian College, ON, Canada. */
+
+/* About Us Styling */
+/* Hero Image Styling */
+.prestige{
+    width: 100%;
+    height: auto;
+}
+.prestige img{
+    width: 100%;
+}
+/* Hero Text */
+.about-main{
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 9%;
+}
+.about-main h3, .about-main p{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.about-main h3{
+    font-family: 'GreatEscapeBook',sans-serif;
+    font-weight: bold;
+    font-size: 250%;
+    color: #3e2093;
+}
+.about-main p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+    width: auto;
+    letter-spacing: 1px;
+    height: 90%;
+}
+/* First-Row Styling */
+.first-row{
+    background-color: #3a3a3a;
+    margin-bottom: 2px;
+    display: flex;
+}
+.first-img{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+}
+.first-details{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 5.75%;
+    margin-right: 10%;
+    margin-left: 2%;
+    height: 10%;
+    width: auto;
+    background: linear-gradient(215deg, #ffffff, #bababa);
+}
+.first-details p{
+    font-family: 'DaytonaPro', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    word-spacing: 0.25px;
+}
+.first-details button{
+    color: #ffffff;
+    background-color: #3a3a3a;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    border: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 120%;
+    transition: all 0.3s ease-in-out;
+}
+.first-details button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    color: #ffffff;
+    background-color: #3e2093;
+    border: 0;
+}
+/* Second-Row Styling */
+.second-row{
+    background-color: #3a3a3a;
+    margin-bottom: 2px;
+    display: flex;
+}
+.second-img{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+}
+.second-details{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 5.75%;
+    margin-right: 10%;
+    margin-left: 2%;
+    height: 10%;
+    width: auto;
+    background: linear-gradient(215deg, #ffffff, #bababa);
+}
+.second-details p{
+    font-family: 'DaytonaPro', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    word-spacing: 0.25px;
+}
+.second-details button{
+    color: #ffffff;
+    background-color: #3a3a3a;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    border: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 120%;
+    transition: all 0.3s ease-in-out;
+}
+.second-details button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    color: #ffffff;
+    background-color: #3e2093;
+    border: 0;
+}
+/* Third-Row Styling */
+.third-row{
+    background-color: #3a3a3a;
+    margin-bottom: 2px;
+    display: flex;
+}
+.third-img{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+}
+.third-details{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 5.75%;
+    margin-right: 10%;
+    margin-left: 2%;
+    height: 10%;
+    width: auto;
+    background: linear-gradient(75deg, #ffffff, #bababa);
+}
+.third-details p{
+    font-family: 'DaytonaPro', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    word-spacing: 0.25px;
+}
+.third-details button{
+    color: #ffffff;
+    background-color: #3a3a3a;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    border: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 120%;
+    transition: all 0.3s ease-in-out;
+}
+.third-details button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    color: #ffffff;
+    background-color: #3e2093;
+    border: 0;
+}
+/* About Us Done */
+/* CSS Document */
+/* Retro Product Micro-site | Mustang 1969 */
+/* CSS Code by Deep Biswas and Arshpreet Singh Guray, Georgian College, ON, Canada. */
+
+/* Contact Us Styling */
+/* Help Styling */
+.help{
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 9%;
+    text-align: center;
+}
+.help h3, .help p{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.help h3{
+    font-family: 'GreatEscapeBook',sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    color: #3e2093;
+}
+.help p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+    width: auto;
+    letter-spacing: 1px;
+    height: 90%;
+}
+/* Slideshow Styling */
+.slideshow{
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+} 
+.img-slides{
+    display: none;
+    text-align: center;
+}
+  
+.img-slides img{
+    width: 100%;
+}  
+.slidetext{
+    position: relative;
+    bottom: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    font-family: 'DaytonaPro', sans-serif;
+    color: #000000;
+    padding: 5px 10px;
+    font-size: 24px;
+    width: 100%;
+    box-sizing: border-box;
+}  
+.slidedot{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+.dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    transition: background-color 0.6s ease;
+} 
+.dot.active {
+    background-color: #717171;
+}
+/* Search Styling */
+.search{
+    background-color: #3a3a3a;
+    width: 100%;
+    height: 1%;
+    padding-top: 3%;
+    padding-bottom: 9%;
+    margin-bottom: 2px;
+}
+.search h3, .search p{
+    margin-left: 9%;
+    margin-right: 9%;
+    color: #ffffff;
+}
+.search h3{
+    font-family: 'GreatEscapeBook',sans-serif;
+    font-weight: 400;
+    font-size: 175%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.search p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    width: auto;
+    letter-spacing: 1px;
+    height: 90%;
+}
+/* Search Bar Icon and Animations Styling */
+.search-form{
+    margin-left: 9%;
+    margin-right: 9%;
+    position: relative;
+    height: 40px;
+    width: auto;
+    display: inline-block;
+    border-radius: 20px;
+    background: #ffffff;
+    line-height: 40px;
+    font-size: 100%;
+    box-shadow: 0 0 3px #111111;
+    overflow: hidden;
+}
+.search-form span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+}
+.search-open{
+    position: absolute;
+    z-index: 1;
+}
+.search-open i{
+    color: #000000;
+}
+#search-input{
+    width: 0;
+    margin: 0 0;
+    padding: 0 0 0 40px;
+    border: none;
+    height: 40px;
+    vertical-align: top;
+    position: relative;
+    z-index: 2;
+    background: transparent;
+    -webkit-transition: width 1s;
+    transition: width 1s; 
+}
+#search-input:focus{
+    outline: none;
+    width: 180px;
+}
+#search-input + .search-close{
+    width: 0;
+}
+#search-input:focus + .search-close{
+    width: 40px;
+    cursor: pointer;
+}
+.search-close i{
+    color: #000000;
+}
+/* Chat Styling */
+.chat{
+    background-color: #000000;
+    height: 1%;
+    width: auto;
+    padding-top: 25px;
+}
+.chat p, .chat button{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.chat p{ 
+    color: #ffffff;
+    font-family: 'Outfit', sans-serif;
+    font-size: 130%;
+}
+.chat button{
+    padding: 15px;
+    margin-bottom: 45px;
+    font-size: 150%;
+    color: #000000;
+    font-family: 'GreatEscapeBook', sans-serif;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.chat button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    color: #ffffff;
+    background-color: #3e2093;
+    border: 0;
+}
+
+/* Form Styling */
+.form-parent{
+    min-height: 70vh;
+    width: 100%;
+    background: linear-gradient(75deg, #444444, #aaaaaa);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DaytonaPro', sans-serif;
+}
+.form-container{
+    max-width: 1100px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.form-container .form-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Form Details Styling */
+.form-container .form-content .form-left-side{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+}
+.form-content .form-left-side::before{
+    content: "";
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+}
+.form-content .form-left-side .form-details{
+    margin: 14px;
+    text-align: center;
+}
+.form-content .form-left-side .form-details i{
+    font-size: 30px;
+    color: #3e2093;
+    margin-bottom: 10px;
+}
+.form-content .form-left-side .form-details .form-topic{
+    font-size: 18px;
+    font-weight: 500;
+}
+.form-content .form-left-side .form-details .form-text-one,
+.form-content .form-left-side .form-details .form-text-two{
+    font-size: 14px;
+    color: #afafb6;
+}
+  
+.form-container .form-content .form-right-side {
+    width: 75%;
+    margin-left: 75px;
+}
+.form-content .form-right-side .form-topic-text {
+    font-size: 23px;
+    font-weight: 600;
+    color: #3e2093;
+}
+.form-right-side .form-input-box {
+    height: 55px;
+    width: 100%;
+    margin: 12px 0;
+}
+.form-right-side .form-input-box input,
+.form-right-side .form-input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #f0f1f8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+}
+.form-right-side .form-message-box{
+    min-height: 110px;
+}
+.form-right-side .form-input-box textarea{
+    padding-top: 6px;
+}
+.form-right-side .form-button{
+    display: inline-block;
+    margin-top: 12px;
+}
+.form-right-side .form-button button{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #3e2093;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+  .form-button button:hover{
+    background: #0009fb;
+}
+/* Form Styling Done. */
+/* Form Responsive Styling */ 
+@media (max-width: 950px){
+    .form-container {
+      width: 90%;
+      padding: 30px 40px 40px 35px;
+    }
+    .form-container .form-content .form-right-side {
+      width: 75%;
+      margin-left: 55px;
+    }
+}
+@media (max-width: 820px){
+    .form-container {
+      margin: 40px 0;
+      height: 100%;
+    }
+    .form-container .form-content {
+      flex-direction: column-reverse;
+    }
+    .form-container .form-content .form-left-side {
+      width: 100%;
+      flex-direction: row;
+      margin-top: 40px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .form-container .form-content .form-left-side::before {
+      display: none;
+    }
+    .form-container .form-content .form-right-side {
+      width: 100%;
+      margin-left: 0;
+    }
+}
+/* CSS Document */
+/* Retro Product Micro-site | Mustang 1969 */
+/* CSS Code by Deep Biswas and Arshpreet Singh Guray, Georgian College, ON, Canada. */
+
+/* Product Page Styling */
+.product-hero{
+    height: 500px;
+}
+.first-hero{
+    background-image: url(../img/hitman-1.png);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 2%;
+    line-height: 100%;
+}
+.first-hero h3{
+    font-family: 'GreatEscapeBook', sans-serif;
+    font-size: 175%;
+    color: #000000;
+}
+.first-hero p{
+    font-family: 'DaytonaPro', sans-serif;
+    color: #ffffff;
+    text-shadow: rgba(0, 0, 0, 1.0);
+}
+.hero-price{
+    background-color: #000000;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.hero-price h3{
+    font-family: 'GreatEscapeBook', sans-serif;
+    font-size: 175%;
+    background: linear-gradient(90deg,#ffffff, #4a4d3e, #2e2e2e, #4a4d3e, #ffffff);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 20s linear infinite;
+}
+.hero-price p{
+    padding-top: 0;
+    font-family: 'Outfit', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
+.hero-price form button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'DaytonaPro', sans-serif;
+    font-size: 150%;
+    border-radius: 7.5px;
+    transition: all 0.3s ease-in-out;
+    border: 0;
+}
+.hero-price form button:hover{
+    cursor: pointer;
+    color: #ffffff;
+    transform: scale(1.025);
+    background-color: #3e2093;
+    border: 0;
+}
+/* Product Slideshow Styling */
+.product-slideshow{
+    background-color: #000000;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.product-slider{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.product-slide{
+    margin: 1px;
+    flex: 0 0 25%;
+}
+.product-slide img{
+    width: 100%;
+    height: auto;
+}
+.product-arrows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.product-arrow{
+    font-size: 24px;
+    padding: 1%;
+    cursor: pointer;
+    color: #8a8a8a;
+    user-select: none;
+}
+/* A bit of Details Styling */
+.product-details{
+    background-color: #000000;
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0;
+}
+.pd-first{
+    display: flex;
+    gap: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #3a3a3a;
+}
+.pd-first img{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    width: 40%;
+    height: auto;
+}
+.pd-first-text{
+    line-height: 140%;
+    padding-right: 1%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 40%;
+    height: auto;
+}
+.pd-first-text h3{
+    font-family: 'GreatEscapeBook', sans-serif;
+    font-size: 140%;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+.pd-first-text p{
+    font-family: 'DaytonaPro',sans-serif;
+    color: #ffffff;
+}
+/* Second */
+.pd-second{
+    display: flex;
+    gap: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #000000;
+}
+.pd-second img{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    width: 40%;
+    height: auto;
+}
+.pd-second-text{
+    line-height: 140%;
+    padding-right: 1%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 40%;
+    height: auto;
+}
+.pd-second-text h3{
+    font-family: 'GreatEscapeBook', sans-serif;
+    font-size: 140%;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+.pd-second-text p{
+    font-family: 'DaytonaPro',sans-serif;
+    color: #ffffff;
+}
+/* Engine Styling */
+.engine{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    background: linear-gradient(90deg,#ffffff, #4e4e4e);
+}
+.engine img{
+    width: 20%;
+    height: auto;
+}
+.engine-text{
+    padding: 100px;
+}
+.engine-text h3{
+    font-family: 'GreatEscapeBook', sans-serif;
+    font-size: 200%;
+    background: linear-gradient(90deg,#ffffff, #4a4d3e, #2e2e2e, #4a4d3e, #ffffff);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 20s linear infinite;
+}
+.engine-text p{
+    font-family: 'DaytonaPro', sans-serif;
+}
+/* Collapsible Styling */
+.col-text{
+    padding: 2%;
+    background-color: ;
+    background: linear-gradient(90deg,#3e2093 , #223983);
+    margin-bottom: 1px;
+}
+.col-text h3{
+    font-family: 'GreatEscapeBook', sans-serif;
+    font-size: 200%;
+    letter-spacing: 25px;
+    background: linear-gradient(90deg,#000000, #252522, #2e2e2e, #252522, #000000);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 20s linear infinite;
+}
+.main-collapsible{
+    margin-bottom: 2px;
+}
+.collapsible{
+    font-family: 'GreatEscapeBook', sans-serif;
+    background-color: #3e3e3e;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin: 0.5px;
+}
+  
+.active, .collapsible:hover {
+    background-color: #3e2093;
+}
+  
+.col-content {
+    padding: 20px 18px;
+    font-family: 'Outfit', sans-serif;
+    display: none;
+    overflow: hidden;
+    background: linear-gradient(45deg,#ffffff, #868686);
+}
+
+/* Responsive Design */
+@media (max-width: 797px){
+    .navigation-container{
+        width:200%;
+    }
+    .flash-container{
+        width: 200%;
+    }
+    .vidimage{
+        width: 200%;
+    }
+    .mach-title{
+        width: 200%;
+    }
+    .mach-container{
+        width: 200%;
+    }
+    .footer-navigation-container{
+        width: 200%;
+    }
+    .prestige{
+        width: 200%;
+    }
+    .about-main{
+        width: 200%;
+    }
+
+    .first-row,
+    .second-row,
+    .third-row{
+        width:200%;
+    }
+    .help,
+    .sliding-main,
+    .search,
+    .chat,
+    .form-parent{
+        width:200%;
+    }
+    .product-hero,
+    .hero-price,
+    .product-arrows,
+    .product-details,
+    .engine,
+    .main-collapsible{
+        width:200%;
+    }
+    .col-text{
+        width:196%;
+    }
+
+}
+
+/* CSS Document */
+/* Retro Product Micro-site | Mustang 1969 */
+/* CSS Code by Deep Biswas and Arshpreet Singh Guray, Georgian College, ON, Canada. */
+  
